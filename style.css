@@ -7,3 +7,62 @@ html {
 }
 
 
+body {
+    background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+article {
+    background: #F8F8F8;
+    border-radius: 1rem;
+    padding: 32px;
+    flex-basis: 616px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+ 
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subtitle {
+    color: #545454;
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.content  {
+    line-height: 22px;
+}
+
+.summary {
+margin: 0;
+}
+
+.link {
+    color: #E20613;
+    text-decoration: none;
+}
+
+span {
+    color: #ED6D05;
+}
+
